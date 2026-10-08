@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Current Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+            "justMyCode": true
+        },
+        {
+            "name": "Run GUI2.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Frontend\\GUI2.py",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+            "justMyCode": true
+        }
+    ]
+}

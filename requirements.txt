@@ -1,0 +1,41 @@
+# Quick Reference: JARVIS Dependencies for 64-bit Python
+
+# Core dependencies
+python-dotenv
+requests
+
+# Speech & Audio
+SpeechRecognition
+pyaudio
+edge-tts
+pygame
+
+# AI & LLM
+google-generativeai
+huggingface_hub
+openai
+livekit
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-google
+cohere
+
+# Image Generation
+Pillow
+
+# GUI & Visualization
+PyQt5
+pyqtgraph
+ursina
+
+# System & Utilities
+psutil
+AppOpener
+duckduckgo-search
+wikipedia
+
+# Install all at once (after 64-bit Python is installed):
+# pip install -r requirements.txt
+
+matplotlib
+scipy
